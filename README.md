@@ -9,9 +9,13 @@ To write a program to predict the price of the house and number of occupants in 
 
 ## Algorithm
 1.Load and prepare the dataset.
+
 2.Split the dataset into training and testing sets, then scale values.
+
 3.Train the model using SGDRegressor with MultiOutputRegressor.
+
 4.Predict outputs on test data and evaluate with Mean Squared Error.
+
 ## Program:
 ```
 import numpy as np
